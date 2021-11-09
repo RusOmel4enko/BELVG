@@ -1,0 +1,29 @@
+.footer__items {
+  display: flex;
+  align-items: center;
+}
+.footer-item__link {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #666;
+  font-weight: 300;
+}
+
+.footer__container {
+  padding: 20px 0px;
+}
+
+.footer__shell {
+  display: flex;
+  align-items: center;
+}
+
+.footer__items {
+  justify-content: space-between;
+}
+
+.footer__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
